@@ -31,3 +31,6 @@ htmlcov/
 .nox/
 .mypy_cache/
 .ruff_cache/
+
+# make.fun kit (tooling, not part of the entry)
+u-eager-stork-81-9647-the-funniest-toaster-error-436406cd-kit/
