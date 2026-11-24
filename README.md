@@ -15,7 +15,7 @@ python3 main.py --self-test
 python3 main.py
 ```
 
-`main.py` writes the entry to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`), validates it against the gate (1–120 characters, single line, not only white space), and reads it back to confirm the file holds exactly the entry. Standard library only, deterministic, no network, no clock.
+`main.py` writes the entry to `/output/entry.txt` (override with `--output FILE`), validates it against the gate (1–120 characters, single line, not only white space), and reads it back to confirm the file holds exactly the entry. Standard library only, deterministic, no network, no clock.
 
 ---
 
